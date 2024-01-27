@@ -1,0 +1,13 @@
+.page-container {
+    margin: 20px auto; /* Adjust the margin value as per your preference */
+    width: 80%; /* Adjust the width as per your preference */
+  }
+  
+  .table-container {
+    margin: 0 auto; /* Center the table horizontally */
+  }
+  
+  .status-instruction {
+    color: #666;
+  }
+  

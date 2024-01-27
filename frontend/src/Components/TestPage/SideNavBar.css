@@ -1,0 +1,59 @@
+.side-navbar {
+    position: fixed;
+    top: 60px; /* adjust this value based on your header height */
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: calc(100% - 60px); /* adjust this value based on your header height */
+    background-color: #f8f8f8;
+    border-right: 1px solid #d8d8d8;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .side-navbar__list {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+  
+  .side-navbar__list-item {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .side-navbar__list-item:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .side-navbar__list-item--active {
+    background-color: #d8d8d8;
+  }
+  
+  .side-navbar__list-item-text {
+    margin-left: 10px;
+  }
+  
+  .side-navbar__list-item-text--marked {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .side-navbar__list-item-text--not-answered {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .side-navbar__list-item-text--answered {
+    font-weight: bold;
+    color: green;
+  }
+  

@@ -1,0 +1,10 @@
+.app-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    /* Adjust the gap between the sidebar and content as needed */
+}
+
+.content-container {
+    flex: 1;
+}

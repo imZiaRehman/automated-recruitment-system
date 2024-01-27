@@ -1,0 +1,11 @@
+.layout {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1;
+    margin-left: 200px; /* Adjust this value to match the width of the sidebar */
+  }
+  .Header{
+    margin-bottom: 60px;
+  }

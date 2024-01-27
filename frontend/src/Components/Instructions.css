@@ -1,0 +1,87 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.instructions-container {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1),
+              -4px -4px 10px rgba(255, 255, 255, 0.5);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.start-button-container {
+  margin-top: 20px;
+}
+
+.start-button-container button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button-container button:hover {
+  background-color: #1976d2;
+}
+
+.start-button-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.submit-button {
+  position: relative;
+}
+
+.button-progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: button-progress-anim 1s linear infinite;
+}
+
+@keyframes button-progress-anim {
+  0% {
+    width: 10px;
+    height: 10px;
+  }
+  50% {
+    width: 16px;
+    height: 16px;
+  }
+  100% {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.submit-button.disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}

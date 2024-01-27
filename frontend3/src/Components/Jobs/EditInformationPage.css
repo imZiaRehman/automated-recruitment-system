@@ -1,0 +1,43 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .page-heading {
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+    background-color: #faf7f7;
+  }
+  
+  .instruction {
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .alert-message {
+    margin-bottom: 10px;
+  }
+  
+  .instruction {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .instruction p {
+    margin: 5px 0;
+  }
+  

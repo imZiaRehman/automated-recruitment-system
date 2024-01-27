@@ -1,0 +1,9 @@
+.layout {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1;
+    margin-left: 70px; /* Adjust this value to match the width of the sidebar */
+  }
+  
